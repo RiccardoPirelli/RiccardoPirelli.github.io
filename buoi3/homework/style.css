@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(250, 247, 237);
+}
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.menu-items {
+  display: inline-block;
+  padding: 15px;
+  letter-spacing: 2px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.text-upper {
+  text-transform: uppercase;
+}
+.align-center {
+  text-align: center;
+}
+.text-bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.color-orange {
+  color: rgb(238, 187, 92);
+}
+.decoration-items {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.74);
+}
+.stag-divider--strong {
+  height: 4px;
+  border: 0ch;
+  background: black;
+  margin: 2em 0;
+}
