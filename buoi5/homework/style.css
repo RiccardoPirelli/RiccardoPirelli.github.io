@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0ch;
+  padding: 0ch;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.header {
+  padding: 24px 0px 24px 0px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.container {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header-branding {
+  width: 190px;
+  height: 118px;
+  /* background-color: red; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.monarch {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.architecture {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 2px;
+  color: rgba(95, 158, 160, 0.863);
+  font-weight: bold;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-spacebetween {
+  justify-content: space-between;
+}
+
+.j-normal {
+  justify-content: flex-start;
+}
+
+/** Nav Bar **/
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+  /* background-color: blue; */
+}
+
+.item {
+  padding: 16px 25px 16px 25px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+
+/** Main Section **/
+
+.main {
+  width: 100%;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  /* background-color: cornsilk; */
+}
+
+.furniture {
+  width: 25%;
+  height: 250px;
+  padding: 0px 15px 30px 15px;
+  /* background-color: cadetblue; */
+}
+
+.furniture img {
+  width: 100%;
+  height: 100%;
+}
+
+/** Footer **/
+
+.footer {
+  width: 100%;
+  padding: 60px 0px 0px 0px;
+  /* background-color: gold; */
+  border-top: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  height: 287px;
+  padding: 0px 15px 0px 15px;
+  margin: 0px 70px 40px 70px;
+  /* background-color: darkgrey; */
+}
+
+.list-left {
+  width: 40%;
+  height: 100%;
+  padding: 10px 0px 10px 0px;
+  /* background-color: hotpink; */
+}
+
+.list-left > p {
+  padding-right: px;
+}
+
+.list-right {
+  width: 50%;
+  height: 100%;
+  padding-top: 10px;
+  /* background-color: hotpink; */
+}
+
+.heading {
+  width: 100%;
+  height: 20%;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.menubox {
+  width: 100%;
+  height: 80%;
+  /* background-color: orange; */
+}
+
+.menuitem {
+  display: flex;
+  flex-direction: column;
+  width: 33.3333%;
+  height: 100%;
+  padding: 15px;
+  /* background-color: rgb(44, 204, 124); */
+}
+
+.list-nostyle {
+  list-style: none;
+  line-height: 40px;
+}
+
+.end {
+  text-align: center;
+  font-weight: 600;
+  padding: 40px 0px 48px 0px;
+}
