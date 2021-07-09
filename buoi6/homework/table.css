@@ -1,0 +1,18 @@
+table {
+  width: 1000px;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+tr,
+td,
+th {
+  border: 1px solid gray;
+}
+
+td,
+th {
+  width: 900px;
+  height: 20px;
+}

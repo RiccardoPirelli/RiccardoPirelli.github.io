@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0ch;
+  padding: 0px;
+}
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/** Header **/
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
