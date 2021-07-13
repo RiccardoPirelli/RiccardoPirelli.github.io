@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Helvetica, Arial, sans-serif;
+  position: relative;
+  background-color: #f5f5f5;
+  padding-bottom: 50px;
+}
+
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding-bottom: 22px;
+  background-color: #ffff;
+  z-index: 1000;
+}
+
+.link-list {
+  background-color: rgba(153, 153, 153, 0.085);
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.link-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.link-item-content.color-text-gray {
+  color: rgb(153, 153, 153);
+}
+
+.link-item-content {
+  text-decoration: none;
+  font-size: 12px;
+  color: #0f1568;
+  padding: 0px 17px 0px 17px;
+  transition: all 0.3s;
+}
+
+.link-item-content:hover {
+  color: #f57224;
+}
+
+.bar {
+  display: flex;
+  height: 60px;
+  padding-top: 11px;
+  margin-left: 46px;
+  margin-right: 60px;
+  position: relative;
+}
+
+.logo {
+  /* background-color: red; */
+  width: 200px;
+  padding: 5px;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.form-group {
+  width: 580px;
+  height: 100%;
+  /* background-color: sandybrown; */
+  border-radius: 2px;
+}
+
+.form-control {
+  height: 100%;
+  width: 100%;
+  padding: 13px 19px 13px 19px;
+  outline: none;
+  border: none;
+  background-color: #eff0f5;
+  font-size: 14px;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.search-btn {
+  background-color: #f57224;
+  color: white;
+  padding: 2px;
+  outline: none;
+  border-radius: 0px 2px 2px 0px;
+  border: none;
+  width: 49px;
+  font-size: 20px;
+}
+
+.cart-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-color: yellow; */
+  margin-left: 20px;
+  height: 100%;
+  width: 49px;
+  font-size: 35px;
+}
+
+.cart-logo {
+  color: #0f1568;
+}
+
+.zalopay-box {
+  width: 188px;
+  height: 49px;
+  position: absolute;
+  top: 11px;
+  right: 0px;
+  /* background-color: violet; */
+}
+
+.zalopay-box img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Advertising */
+
+.menu {
+  background-color: rgb(252, 210, 4);
+  width: 100%;
+  height: 344px;
+  position: relative;
+}
+
+.backgroundimg {
+  width: 100%;
+  height: 344px;
+  margin-top: 108px;
+}
+
+.backgroundimg img {
+  width: 100%;
+  height: 100%;
+  padding-left: 200px;
+  padding-right: 60px;
+  position: relative;
+}
+
+.backgroundimage {
+  cursor: pointer;
+}
+
+.menu-table {
+  background-color: white;
+  padding-top: 8px;
+  padding-bottom: 12px;
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  box-shadow: 0px 1px 4px #888888a6;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-link {
+  display: block;
+  line-height: 27px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #757575;
+  padding-left: 8px;
+  transition: background-color 0.2s;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  background-color: white;
+  list-style: none;
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  line-height: 27px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #757575;
+  padding-left: 8px;
+  transition: background-color 0.2s;
+  width: 200px;
+}
+
+.dropdown-item:hover > .dropdown-link {
+  background-color: #9e9e9e2c;
+  color: coral;
+}
+
+.menu-item:hover .menu-link {
+  background-color: #9e9e9e2c;
+  color: coral;
+}
+
+.menu-item:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item:hover > .dropdown-menu {
+  display: block;
+}
+
+.channel {
+  margin-top: 22px;
+  /* margin-left: 46px;
+  margin-right: 46px; */
+  margin-bottom: 12px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.channel-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 22%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #ffff;
+  border: none;
+  transition: all 0.3s;
+}
+
+.channel-link {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #424242;
+}
+
+.channel-content:hover {
+  box-shadow: 0 2px 10px rgba(35, 81, 95, 0.521);
+}
+
+.logo-channel {
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+}
+
+.logo-channel img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Category */
+
+.category {
+  margin-top: 30px;
+  margin-left: 46px;
+  margin-right: 46px;
+  margin-bottom: 30px;
+}
+
+.category-header {
+  width: 100%;
+  font-size: 22px;
+  color: #424242;
+  font-weight: 400;
+  height: 38px;
+}
+
+.card {
+  width: 12.5%;
+  height: 148.5px;
+  border-right: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff;
+  color: #2c2c2c;
+  font-size: 14px;
+  line-height: 1.15;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.card p {
+  width: 80%;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+}
+
+.category-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card:hover {
+  box-shadow: 2px -2px 5px rgba(128, 128, 128, 0.466);
+}
+
+/* MESSAGE-BOX */
+
+.message-box {
+  width: 160px;
+  height: 40px;
+  border-radius: 2px 2px 0px 0px;
+  box-shadow: 0 2px 4px 0 rgb(35, 81, 95);
+  color: #003e52de;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0px;
+  right: 50px;
+  z-index: 999999;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 19px;
+  padding-right: 22px;
+  padding-bottom: 3px;
+  transition: all 0.3s;
+}
+
+.message-box:hover {
+  color: white;
+  background-color: #003e52de;
+}
+
+/* LIFTNAV */
+
+.liftnav {
+  position: fixed;
+  width: 40px;
+  bottom: 40px;
+  left: 0ch;
+  color: #999;
+  font-size: 18px;
+  line-height: 1.15;
+}
+
+.navbox {
+  height: 40px;
+  background-color: #f5f5f5;
+  border: 1px solid #fff;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  margin: -1px;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.hovered-text {
+  position: absolute;
+  right: -136px;
+  width: 138px;
+  top: 0ch;
+  color: rgb(211, 94, 52);
+  text-align: left;
+  font-size: 12px;
+  line-height: 40px;
+  background-color: #f5f5f5;
+  padding-left: 5px;
+  display: none;
+}
+
+.active {
+  color: rgb(211, 94, 52);
+}
+
+.navbox:hover {
+  color: rgb(211, 94, 52);
+}
+
+.navbox:hover > .hovered-text {
+  color: rgb(211, 94, 52);
+  display: block;
+}
+
